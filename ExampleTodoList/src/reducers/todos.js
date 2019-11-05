@@ -1,6 +1,7 @@
 const todos = (state = [], action) => {
   switch (action.type) {
     case "ADD_TODO":
+      // add new item to list, and return the list
       return [
         ...state,
         {

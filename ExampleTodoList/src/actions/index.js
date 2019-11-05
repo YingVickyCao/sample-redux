@@ -8,6 +8,7 @@ export const addTodo = text => {
 };
 
 export const setVisibilityFilter = filter => {
+  // filter = "SHOW_ALL";
   return {
     type: "SET_VISIBILITY_FILTER",
     filter

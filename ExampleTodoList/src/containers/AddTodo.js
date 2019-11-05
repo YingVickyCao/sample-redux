@@ -5,6 +5,8 @@ import { addTodo } from "../actions";
 let AddTodo = ({ dispatch }) => {
   let input;
 
+  //  form ：为用户输入创建HTML表单。 元素横向排列
+  console.log("render AddTodo");
   return (
     <div>
       <form
