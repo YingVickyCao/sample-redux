@@ -13,4 +13,5 @@
 
 # Refs
 
-https://www.redux.org.cn/docs/basics/DataFlow.html
+- https://www.redux.org.cn/docs/introduction/Examples.html
+- https://github.com/reduxjs/redux/tree/master/examples/async
