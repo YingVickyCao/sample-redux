@@ -2,6 +2,8 @@ import React from "react";
 import PropTypes from "prop-types";
 
 const Link = ({ active, children, onClick }) => {
+  console.log("Link: render(), active=" + active + ",children=" + children);
+
   if (active) {
     return <span>{children}</span>;
   }

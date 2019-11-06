@@ -11,7 +11,7 @@ import Todo from "./Todo";
 // );
 
 function TodoList({ todos, onTodoClick }) {
-  console.log("render() TodoList");
+  console.log("TodoList render()");
   return (
     <ul>
       {todos.map(todo => (
