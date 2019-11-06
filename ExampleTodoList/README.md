@@ -10,6 +10,10 @@ state:
 }
 ```
 
+# Check Component render
+
+## Component render when use react-redux (connect())
+
 - state tree  
   监听的是整个 state tree，not only used state key-value.  
   只要存在任意 state (key-value)改变，就是 state 变了。不管是否使用 Redux/React-Redux，监听 state 改变规则相同  
